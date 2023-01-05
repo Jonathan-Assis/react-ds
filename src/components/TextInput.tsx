@@ -11,7 +11,7 @@ function TextInputRoot(props: TextInputRootProps) {
         <div className="flex items-center h-12 gap-3 py-4 px-3 rounded bg-gray-800 w-full focus-within:ring-2 ring-cyan-300">
             {props.children}
         </div>
-    )
+    ) 
 }
 
 TextInputRoot.displayName = "TextInput.Root"
